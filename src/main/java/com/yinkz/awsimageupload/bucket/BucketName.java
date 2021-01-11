@@ -2,7 +2,7 @@ package com.yinkz.awsimageupload.bucket;
 
 public enum BucketName {
 
-    PROFILE_IMAGE("yinkz-image-upload-123");
+    PROFILE_IMAGE("yikus-image-upload-bucket");
 
     private final String bucketName;
 

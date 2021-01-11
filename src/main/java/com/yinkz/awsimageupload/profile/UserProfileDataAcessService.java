@@ -16,9 +16,8 @@ public class UserProfileDataAcessService {
         this.fakeUserProfileDataStore = fakeUserProfileDataStore;
     }
 
-    List<UserProfile> getUserProfiles() {
+
+    public List<UserProfile> getUserProfiles() {
         return fakeUserProfileDataStore.getUserProfiles();
     }
-
-
 }
